@@ -3,8 +3,8 @@ import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 
 // Map container styling
 const containerStyle = {
-  width: "200%",
-  height: "500px",
+  width: "500%",
+  height: "600px",
 };
 
 // Center coordinates
@@ -19,7 +19,7 @@ const MapWithMarker = () => {
       <GoogleMap
         mapContainerStyle={containerStyle} // Set map container dimensions
         center={initialCenter} // Center map at these coordinates
-        zoom={15} // Set zoom level
+        zoom={18} // Set zoom level
         
       >
         {/* Add a marker at the center */}
